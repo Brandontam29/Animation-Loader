@@ -5,6 +5,7 @@ body {
   color: #333333;
   line-height: 1.5;
   font-size: 24px;
+  background-color: #fefefe;
 }
 
 .App {
@@ -17,7 +18,7 @@ body {
 }
 
 .App button {
-  font-family: Aileron, sans-serif !important;
+  font-family: inherit !important;
   letter-spacing: 0.35em;
   font-size: 18px;
   width: 120px;
@@ -26,6 +27,12 @@ body {
   border-radius: 4px;
   padding: 14px 35px 12px 33px;
   cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #fafafa;
+  border: 2px solid #333333;
+  padding: 13px 34px 11px 32px;
 }
 
 .App input {
@@ -39,6 +46,12 @@ body {
   border-radius: 4px;
   padding: 14px 0px 12px 20px;
   cursor: pointer;
+}
+
+.App input:hover {
+  background-color: #fafafa;
+  border: 2px solid #333333;
+  padding: 13px 0px 11px 18px;
 }
 
 .App a {
@@ -95,4 +108,11 @@ body {
 .app-outro {
   margin-left: 1%;
   margin-right: 10%;
+}
+
+.github-link {
+  text-align: right;
+  margin-top: 50px;
+  color: #b9b9b9;
+  text-decoration-color: #b9b9b9;
 }

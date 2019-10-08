@@ -1,11 +1,7 @@
 import React, { Component } from "react"
 import { MoonLoader } from "react-spinners"
-import { css } from "@emotion/core"
-import "./App.css"
 
-const override = css`
-  margin: 0 auto;
-`
+import "./App.css"
 
 class App extends Component {
   constructor(props) {
@@ -36,7 +32,6 @@ class App extends Component {
     return (
       <div className="animation-wrapper">
         <MoonLoader
-          css={this.override}
           sizeUnit={"px"}
           size={200}
           color={"#7a7d7e"}
@@ -94,7 +89,11 @@ class App extends Component {
           <div className="flex-wrapper">
             <p>
               <h3>More examples</h3>
-              <a href="https://www.react-spinners.com/" target="_blank">
+              <a
+                href="https://www.react-spinners.com/"
+                target="_blank"
+                rel="noopener"
+              >
                 React-Spinners Website
               </a>
             </p>
@@ -103,12 +102,21 @@ class App extends Component {
               <a
                 href="https://github.com/davidhu2000/react-spinners"
                 target="_blank"
+                rel="noopener"
               >
                 React-Spinners GitHub
               </a>
             </p>
           </div>
         </div>
+        <a
+          href="https://github.com/Brandontam29/Animation-Loader"
+          target="_blank"
+          rel="noopener"
+          className="github-link"
+        >
+          <div className="github-link">Source Code: Creator's GitHub</div>
+        </a>
       </div>
     )
   }
