@@ -30,7 +30,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "storybook": "^5.1.11"
-  }
+  "devDependencies": {}
 }

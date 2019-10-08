@@ -9,7 +9,8 @@ class App extends Component {
     this.state = {
       loading: false,
       duration: 2,
-      buttonText: { true: "Stop", false: "Play" } //display button text depending on loading
+      buttonText: { true: "Stop", false: "Play" }, //display button text depending on loading
+      buttonCss: { true: "button-disabled", false: "button-enabled" }
     }
   }
 
@@ -45,6 +46,7 @@ class App extends Component {
   renderPlayButton = () => {
     return (
       <button
+        className={this.state.buttonCss[this.state.loading]}
         onClick={this.animationTimeoutHandler}
         disabled={this.state.loading}
       >

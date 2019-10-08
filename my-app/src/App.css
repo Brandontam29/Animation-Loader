@@ -100,6 +100,21 @@ body {
   margin-top: 1em;
 }
 
+.button-disabled:hover {
+  font-family: inherit !important;
+  letter-spacing: 0.35em;
+  font-size: 18px;
+  width: 120px;
+  background-color: #ffffff !important;
+  border: 1px solid #333333 !important;
+  border-radius: 4px;
+  padding: 14px 35px 12px 33px !important;
+  cursor: auto;
+}
+
+.button-enabled {
+}
+
 .timer-align-right {
   display: flex;
   justify-content: flex-end;
