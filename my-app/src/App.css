@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Aileron, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333333;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.App {
+  width: 80%;
+  margin: auto;
+}
+
+.App h1 h2 h3 h4 h5 h6 {
+  font-family: Aileron-Bold, sans-serif;
+}
+
+.App button {
+  font-family: Aileron, sans-serif !important;
+  letter-spacing: 0.35em;
+  font-size: 18px;
+  width: 120px;
+  background-color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  padding: 14px 35px 12px 33px;
+  cursor: pointer;
+}
+
+.App input {
+  font-family: Aileron, sans-serif !important;
+  letter-spacing: 0.3em;
+  font-size: 18px;
+  text-align: center;
+  width: 100px;
+  background-color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  padding: 14px 0px 12px 20px;
+  cursor: pointer;
+}
+
+.App a {
+  color: #333333;
+}
+
+.App a:hover {
+  color: #7a7d7e;
+}
+
+.animation-wrapper {
+  height: 80%;
+  width: 100%;
+  border: 2px solid #6d6d6d;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.app-intro h3 {
+  color: #636363;
+}
+
+.app-demo {
+  height: 16em;
+  width: 12em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 25%;
+}
+
+.animation-operators {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.timer-align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.app-outro {
+  margin-left: 1%;
+  margin-right: 10%;
+}
