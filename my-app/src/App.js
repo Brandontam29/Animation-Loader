@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import { MoonLoader } from "react-spinners"
-
 import "./App.css"
 
 class App extends Component {
