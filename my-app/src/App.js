@@ -9,7 +9,7 @@ class App extends Component {
       loading: false,
       duration: 2,
       buttonText: { true: "Stop", false: "Play" }, //display button text depending on loading
-      buttonCss: { true: "button-disabled", false: "button-enabled" }
+      buttonCss: { true: "button-disabled", false: "button-enabled" } //manage button css based on loading
     }
   }
 

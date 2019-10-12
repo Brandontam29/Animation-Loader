@@ -129,12 +129,17 @@ body {
   text-align: right;
   margin-top: 50px;
   color: #b9b9b9;
-  text-decoration-color: #b9b9b9;
+  -webkit-text-decoration-color: #b9b9b9;
+          text-decoration-color: #b9b9b9;
 }
 
 .github-link:hover {
   text-align: right;
   margin-top: 50px;
   color: #a1f1ff;
-  text-decoration-color: #a1f1ff;
+  -webkit-text-decoration-color: #a1f1ff;
+          text-decoration-color: #a1f1ff;
 }
+
+
+/*# sourceMappingURL=main.css.map*/
