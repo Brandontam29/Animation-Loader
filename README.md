@@ -8,27 +8,31 @@ Features include:
   - Setting a duration for loading
   - Viewing the loading animation
   
-### Running Locally ###
+### View Project ###
+Storybook.js is implemented in this project to visualize the UI components better.
 
-Fork the Project from GitHub
+Use this link to view: https://brandontam29.github.io/Animation-Loader/?path=/story/full-app--demo
 
+#### Notable Features ####
+Some of the text and css is state dependent. This was accomplished through creating objects in the state and nested state references.
 
-```git clone``` 
+Our initial state
+``` 
+this.state = {
+      loading: false,
+      duration: 2,
+      buttonText: { true: "Stop", false: "Play" }, //display button text depending on loading
+      buttonCss: { true: "button-disabled", false: "button-enabled" } //manage button css based on loading
+    }
+```
 
-
-clone the project to your local machine
-
-
-```npm install``` or ```yarn add``` 
-
-dependencies:
-  - react
-  - react-spinners
- 
- 
-```cd my-app```
-
-
-```npm start``` or ```yarn start```
-
-Feedback is welcomed on my Linkedin or Gmail.
+Example of nested state reference
+``` 
+<button
+        className={this.state.buttonCss[this.state.loading]}
+        onClick={this.animationTimeoutHandler}
+        disabled={this.state.loading}
+      >
+        {this.state.buttonText[this.state.loading]}
+      </button>
+```
