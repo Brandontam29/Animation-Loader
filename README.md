@@ -1,6 +1,7 @@
 # Animation-Loader
 Simple minimalist website that showcase a demo of React-Spinners
 
+
 ### Project description ###
 Front-end only single webpage that allows the user to visualize loading animations
 
@@ -8,12 +9,14 @@ Features include:
   - Setting a duration for loading
   - Viewing the loading animation
   
+  
 ### View Project ###
 Storybook.js is implemented in this project to visualize the UI components better.
 
 Use this link to view: https://brandontam29.github.io/Animation-Loader/?path=/story/full-app--demo
 
-#### Notable Features ####
+
+### Notable Feature ###
 Some of the text and css is state dependent. This was accomplished through creating objects in the state and nested state references.
 
 Our initial state
